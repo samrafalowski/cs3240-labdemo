@@ -1,3 +1,7 @@
 __author__ = 'sgr7sg'
 
-print('hello')
+def greeting(msg):
+    print(msg)
+
+if __name__ == "__main__":
+    greeting('hello')
